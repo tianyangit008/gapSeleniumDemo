@@ -7,7 +7,7 @@ class Login(unittest.TestCase):
     def test_login(self):
         """登录"""
         driver=Driver().get_driver()
-        driver.get("http://gap.test.youxinjinrong.com:5200")
+        driver.get("http:")
         driver.maximize_window()
 
         driver.switch_to_frame(0)
