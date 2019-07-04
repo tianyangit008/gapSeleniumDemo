@@ -13,7 +13,7 @@ class Login(unittest.TestCase):
         driver.switch_to_frame(0)
         driver.find_element_by_xpath("//ul[@id='loginNav']/li[2]").click()
         driver.find_element_by_name("username").send_keys("tianyan")
-        driver.find_element_by_name("pwd").send_keys("tyQWEasd2019@@")
+        driver.find_element_by_name("pwd").send_keys("*********")
         driver.find_element_by_xpath("//button[@class='login-btn onsign']").click()
 
         time.sleep(5)
