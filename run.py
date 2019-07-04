@@ -2,7 +2,7 @@ import unittest
 import HTMLTestReportCN
 import time
 import os
-from cases.login import Login
+from cases.case_login import Login
 from cases.case_orderlist import OrderList
 
 

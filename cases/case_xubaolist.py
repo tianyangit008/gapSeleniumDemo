@@ -1,4 +1,4 @@
-from cases.login import Login
+from cases.case_login import Login
 import unittest
 import time
 

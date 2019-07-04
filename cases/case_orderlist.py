@@ -1,4 +1,4 @@
-from cases.login import Login
+from cases.case_login import Login
 import unittest
 import time
 
@@ -14,6 +14,8 @@ class OrderList(unittest.TestCase):
         """金融订单列表"""
         self.driver.get("http:/gap/halfpayorder")
         time.sleep(5)
+
+
 
     @classmethod
     def tearDownClass(cls):
